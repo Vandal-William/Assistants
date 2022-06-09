@@ -1,0 +1,182 @@
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#renderCanvas {
+    width: 65%;
+    height: 100%;  
+    touch-action: none;
+    
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #eaeaea;
+    display: flex;
+    box-shadow: 0.1rem 0.1rem 0.2rem gray;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.connection{
+    
+    padding: 5%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.logo{
+    padding: 5%;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    
+    
+}
+
+.interaction{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: center;
+    justify-content: space-around;
+        
+    
+}
+
+.assistant{
+    box-shadow: 0.1rem 0.1rem 0.3rem #eaeaea;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+    
+}
+
+.span{
+    display: inline-block;
+    width: 98%;
+    padding: 0.2rem;
+    position : relative;
+}
+
+.reset{
+    position: absolute;
+    display: inline-block;
+    padding: 0.2rem;
+    background-color: red;
+    font-weight: bold;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    
+}
+
+.text-container{
+  
+    width: 100%;
+    overflow: auto;
+}
+
+.color-a{
+    background-color:#eaeaea;
+}
+
+.text-space-rendering{
+    padding: 3%;
+    margin-left: 3%;
+    width: 80%;
+    background-color: #eaeaea;
+    border-radius: 0.5rem;
+}
+
+.user-submit{
+    box-shadow: 0.1rem 0.1rem 0.3rem #eaeaea;
+    height: 40%;
+    width: 90%;
+}
+
+.color-b{
+    background-color:rgb(175, 175, 175);
+}
+
+.form{
+   
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.texte-submit{
+   
+    max-height: 100%;
+    margin-left: 3%;
+    padding: 3%;
+    max-width: 80%;
+    background-color:rgb(175, 175, 175);;
+    border-radius: 0.5rem;
+}
+
+.saisie-text{
+    height: 50%;
+    width: 60%;
+    background-color: #eaeaea;
+    border: 0.1rem solid #eaeaea;
+}
+
+.submit{
+    height: 50%;
+    width: 30%;
+    background-color: gray;
+    border: 0.1rem solid #eaeaea;
+    
+}
+
+.footer{
+    background-color: gray;
+    height: 8vh;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+   
+}
+
+.menu-container{
+ display: none;
+
+}
+
+.menu-container-visibility{
+  
+    display: block;
+    position: fixed;
+    width: 40%;
+    height: 83vh;
+    background-color: #bbbbbb;
+    top: 10%;
+    z-index: 1;
+}
